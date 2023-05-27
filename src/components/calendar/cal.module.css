@@ -28,7 +28,7 @@
 
 .calInput {
   position: relative;
-  border: 2px solid;
+  border: 0px solid transparent;
   border-radius: 4px;
   margin: 8px 0;
   outline: none;

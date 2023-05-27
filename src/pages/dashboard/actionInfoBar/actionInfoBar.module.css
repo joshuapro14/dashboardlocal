@@ -48,7 +48,8 @@
 
 .filterButton {
   padding: 0.25rem;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   cursor: pointer;
   border-radius: 0.25rem;
+  background-color: white;
 }
