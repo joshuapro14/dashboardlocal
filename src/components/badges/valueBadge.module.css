@@ -1,0 +1,41 @@
+.badgeBox {
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.valBox {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: -0.416667px;
+  color: #1e293b;
+}
+
+.percentBadge {
+  border-radius: 0.6rem;
+  /* border: 0px; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0.25rem;
+}
+
+.orangeBadge {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.greenBadge {
+  background-color: seagreen;
+  color: white;
+}
+
+.greyBadge {
+  background-color: silver;
+  color: black;
+}

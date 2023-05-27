@@ -1,0 +1,54 @@
+.bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.avatars {
+}
+
+.avatarGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar {
+  position: relative;
+}
+.avatar img,
+.avatar span {
+  width: 2rem;
+  height: 2rem;
+  display: block;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.avatar span {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar:not(:first-child) {
+  margin-left: -0.8rem;
+}
+
+.actionBox {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.filterButton {
+  padding: 0.25rem;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}

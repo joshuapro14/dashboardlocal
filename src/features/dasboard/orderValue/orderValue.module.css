@@ -1,0 +1,31 @@
+.orderValueCard {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0px 10px 15px -3px rgba(15, 23, 42, 0.08);
+  border-radius: 2px;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.orderValueInfo {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.chartBox {
+  width: 25rem;
+  height: auto;
+}

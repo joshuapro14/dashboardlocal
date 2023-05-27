@@ -1,0 +1,70 @@
+.revenueCard {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0px 10px 15px -3px rgba(15, 23, 42, 0.08);
+  border-radius: 2px;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.chartBox {
+  width: 25rem;
+  height: auto;
+}
+
+.chartLegendBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.singleLegendBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.legendValue {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  color: #1e293b;
+}
+
+.legendCat {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #64748b;
+}
+
+.violetCircle {
+  border: 2px solid #6366f1;
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.blueCircle {
+  border: 2px solid #38bdf8;
+  border-radius: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+}

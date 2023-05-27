@@ -1,0 +1,12 @@
+.chartSection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}

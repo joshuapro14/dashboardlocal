@@ -1,0 +1,53 @@
+.calendar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.calendarContainer {
+  position: absolute;
+  /* background-color: grey; */
+  left: 0;
+  top: 0;
+  min-height: 100%;
+  height: auto;
+  width: 100%;
+  /* opacity: 0.5; */
+}
+
+.calendarBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 0rem;
+  align-items: end;
+  border: 1px solid black;
+  width: fit-content;
+}
+
+.calInput {
+  /* position: relative; */
+  border: 2px solid;
+  border-radius: 4px;
+  /* margin: 8px 0; */
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  padding-left: 40px;
+  width: fit-content;
+}
+
+.inputWithIcon {
+  position: relative;
+  cursor: pointer;
+}
+
+.inputWithIcon svg {
+  position: absolute;
+  left: 0;
+  /* top: 8px; */
+  padding: 9px 8px;
+  color: #aaa;
+  transition: 0.3s;
+}

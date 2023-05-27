@@ -1,0 +1,116 @@
+.pageContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.sideBar {
+  background-color: #1e293b;
+  color: #e2e8f0;
+  padding: 0.5rem;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.navlinksBox {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.navlinksTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+
+.ativeNavLink {
+  padding: 0.5rem;
+  background-color: #0f172a;
+  color: #e2e8f0;
+  text-decoration: none;
+}
+.passiveNavLink {
+  padding: 0.5rem;
+  color: #e2e8f0;
+  text-decoration: none;
+}
+
+.main {
+  width: 100%;
+  background-color: #f1f5f9;
+}
+
+.headerBar {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+
+.roundButton {
+  /* height: 1.5rem;
+  width: 1.5rem; */
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: #d8e1ea;
+  padding: 0.75rem;
+}
+
+.indicator {
+  position: absolute;
+  height: 0.65rem;
+  width: 0.65rem;
+  top: 0%;
+  right: 0%;
+  left: 60%;
+  bottom: 60%;
+  background-color: red;
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+
+.squareButton {
+  /* height: 1.5rem;
+  width: fit-content; */
+  padding: 0.5rem;
+  background-color: #d8e1ea;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.flexRowCenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.outlet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0.8rem;
+}
